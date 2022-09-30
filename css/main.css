@@ -1,0 +1,201 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: #fdf7f7;
+    overflow-x: hidden;
+}
+
+.titul{
+    padding-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.titulo{
+    font-size: 100px;
+    font-style: italic;
+    letter-spacing: 25px;
+    font-weight: bolder;
+}
+
+.titulo2{
+    margin-top: 20px;
+    font-size: 60px;
+    font-style: italic;
+    letter-spacing: 25px;
+    font-weight: bolder;
+}
+
+.subtitulo{
+    padding-left: 18px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.texto{
+    font-size: 20px;
+    font-weight: 100;
+    margin: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+li{
+    font-size: 13px;
+    font-weight: 100;
+    margin: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    transition: 0.4s;
+}
+
+@media only screen and (max-width: 875px) {
+    .lidis{
+        display: inline-flex;
+        padding-left: 60px;
+        padding-right: 60px;
+        transition: 0.4s;
+    }
+}
+
+@media only screen and (max-width: 875px) {
+    li{
+        margin: 5px;
+        transition: 0s;
+    }
+}
+
+.img-eu{
+    height: 100%;
+    padding: 0px;
+    border-radius: 25px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-top: none;
+    border-bottom: none;
+}
+
+.fundoimg{
+    height: 510px;
+    width: 100%;
+    text-align: center;
+    background-color: #FFC2CD;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    overflow-y: hidden;
+}
+
+.ps{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    background-color: #FFC2CD;
+    padding: 25px;
+    border-radius: 25px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    transition: 0.4s;
+    
+}
+
+
+.psimg{
+    width: 400px;
+    margin: 15px;
+    border-radius: 15px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+@media only screen and (max-width: 975px) {
+    .ps{
+        display: inline-flex;
+        transition: 0.4s;
+        margin: 15px;
+        padding: 15px;
+    }
+    .edit{
+        display: inline-flex;
+        flex-wrap: wrap;
+        transition: 0.4s;
+    }
+    #textops{
+        margin: 0px;
+        transition: 0.4s;
+    }
+    .psimg{
+        margin: 10px;
+    }
+}
+
+.edit{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    transition: 0.4s;
+}
+
+#textops{
+    max-width: 400px;
+    transition: 0.4s;
+}
+
+button{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 35px;
+    background-color: #FFC2CD;
+    cursor: pointer;    
+}
+
+.musica{
+    background-color: #FFC2CD;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+}
+
+iframe{
+    width: 700px;
+    height: 500px;
+    border-radius: 15px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+.Desing{
+    background-color: #FFC2CD;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.dsimg{
+    height: 400px;
+    border-radius: 15px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
