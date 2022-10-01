@@ -199,3 +199,17 @@ iframe{
     border-color: black;
     border-style: solid;
 }
+
+.treD{
+    display: flexbox;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    justify-tracks: center;
+}
+
+@media only screen and (max-width: 725px) {
+    iframe{
+        max-width: 400px;
+    }
+}
