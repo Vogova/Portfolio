@@ -203,13 +203,19 @@ iframe{
 .treD{
     display: flexbox;
     width: 100%;
-    justify-content: center;
-    justify-items: center;
-    justify-tracks: center;
 }
 
 @media only screen and (max-width: 725px) {
     iframe{
         max-width: 400px;
     }
+}
+
+.gitimg{
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.git{
+    font-size: 27px;
 }
