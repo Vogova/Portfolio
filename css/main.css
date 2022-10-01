@@ -28,6 +28,14 @@
     font-style: italic;
     letter-spacing: 25px;
     font-weight: bolder;
+    transition: 0.4s;
+}
+@media only screen and (max-width: 675px) {
+    .titulo2{
+        font-size: 45px;
+        letter-spacing: 10px;
+        transition: 0.4s;
+    }
 }
 
 .subtitulo{
@@ -136,6 +144,39 @@ li{
     }
 }
 
+@media only screen and (max-width: 630px) {
+    .ps{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .psimg{
+        width: 330px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .psimg{
+        width: 260px;
+    }
+}
+
+
+@media only screen and (max-width: 300px) {
+    .psimg{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    #dsimg{
+        max-width: 285px;
+        max-height: 285px;
+
+    }
+}
+
 .edit{
     justify-content: center;
     display: flex;
@@ -181,6 +222,18 @@ iframe{
     border-style: solid;
 }
 
+@media only screen and (max-width: 1425px) {
+    .treD{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    iframe{
+        width: 330px;
+    }
+}
+
 .Desing{
     background-color: #FFC2CD;
     padding: 20px;
@@ -201,16 +254,18 @@ iframe{
 }
 
 .treD{
-    display: flexbox;
+    display: flex;
     width: 100%;
+    justify-content: center;
 }
 
-@media only screen and (max-width: 725px) {
-    iframe{
-        max-width: 400px;
-    }
+iframe{
+    max-width: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-
 .gitimg{
     margin-right: 10px;
     margin-top: 15px;
@@ -218,4 +273,61 @@ iframe{
 
 .git{
     font-size: 27px;
+}
+
+.gitb{
+    vertical-align: middle;
+}
+
+.ytimg{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 32px;
+}
+
+.yt{
+    font-size: 27px;
+}
+@media only screen and (max-width: 1000px) {
+    .texto{
+        margin: 0;
+    }
+}
+
+.social-midia{
+    display: inline-flex;
+}
+
+.contato{
+    background-color: #FFC2CD;
+    padding: 20px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    margin: 25px;
+
+}
+
+#texto{
+    background-color: #FFC2CD;
+}
+
+@media only screen and (min-width: 1600px) {
+    .titulo{
+        font-size: 140px;
+    }
+    .titulo2{
+        font-size: 100px;
+    }
+    .texto{
+        font-size: 24px;
+    }
+    .psimg{
+        width: 650px;
+    }
+    iframe{
+        max-width: 440px;
+    }
 }
