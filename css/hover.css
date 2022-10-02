@@ -1,0 +1,96 @@
+#dsimg1:hover{
+    transform: scale(1.0, 1.0);
+    transition: 0.5s;
+    box-shadow: 10px 10px #ff6380;
+    
+}
+    #dsimg1:not(:hover){
+        transform: scale(0.85, 0.85);
+        transition: 0.5s;
+        box-shadow: -10px -10px #ff6380;
+    }
+
+#dsimg2:hover{
+    transform: scale(1.0, 1.0);
+    transition: 0.5s;
+    box-shadow: 10px 10px #ff6380;
+}
+        #dsimg2:not(:hover){
+            transform: scale(0.85, 0.85);
+            transition: 0.5s;
+            box-shadow: -10px -10px #ff6380;
+        }
+
+#dsimg3:hover{
+    transform: scale(1.0, 1.0);
+    transition: 0.5s;
+    box-shadow: 10px 10px #ff6380;
+}
+    #dsimg3:not(:hover){
+        transform: scale(0.85, 0.85);
+        transition: 0.5s;
+        box-shadow: -10px -10px #ff6380;
+    }
+
+#psimg1:hover{
+    transform: scale(1.05, 1.05);
+    transition: 0.5s;
+    box-shadow: 10px 10px #ff6380;
+    margin: 15px;
+    
+}
+    #psimg1:not(:hover){
+        transform: scale(0.85, 0.85);
+        transition: 0.5s;
+        box-shadow: -10px -10px #ff6380;
+    }
+
+#psimg2:hover{
+    transform: scale(1.05, 1.05);
+    transition: 0.5s;
+    box-shadow: 10px 10px #ff6380;
+    margin: 10px;
+}
+        #psimg2:not(:hover){
+            transform: scale(0.85, 0.85);
+            transition: 0.5s;
+            box-shadow: -10px -10px #ff6380;
+        }
+
+.img-eu:hover{
+    transform: scale(1.0, 1.0);
+    transition: 0.5s;
+    box-shadow: 10px 10px #ff6380;
+    margin: 10px;
+    position: relative;
+    top: -10px;
+}
+    .img-eu:not(:hover){
+        transform: scale(0.85, 0.85);
+        transition: 0.5s;
+        box-shadow: -10px -10px #ff6380;
+        top: 10px;
+        position: relative;
+    }
+
+button:hover{
+    transform: scale(0.85, 0.85);
+    transition: 0.5s;
+    box-shadow: 5px 5px #ff6380;
+    
+}
+    button:not(:hover){
+        transform: scale(0.85, 0.85);
+        transition: 0.5s;
+        box-shadow: -5px -5px #ff6380;
+    }
+
+iframe:hover{
+    transform: scale(1.04, 1);
+    transition: 0.5s;
+    
+}
+    iframe:not(:hover){
+        transform: scale(0.85, 0.85);
+        transition: 0.5s;
+    }
